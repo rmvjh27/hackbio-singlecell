@@ -27,6 +27,7 @@ Pseudotime analysis to identify cell differentiation.
 ![2dpi_celltypes](https://github.com/rmvjh27/hackbio-stage3/blob/main/2dpi_celltypes.png)
 ![3dpi_celltypes](https://github.com/rmvjh27/hackbio-stage3/blob/main/3dpi_celltypes.png)
 
+Clusters with no labelled cell type likely belong to the same cell type as the clusters nearest to them, based on marker gene levels:
 
 ### Reference:
 Ravindra NG, Alfajaro MM, Gasque V, Huston NC, Wan H, et al. (2021) Single-cell longitudinal analysis of SARS-CoV-2 infection in human airway epithelium identifies target cells, alterations in gene expression, and cell state changes. *PLOS Biology* 19(3): e3001143. https://doi.org/10.1371/journal.pbio.3001143
