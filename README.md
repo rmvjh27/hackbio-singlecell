@@ -42,19 +42,22 @@ Marker gene levels 3dpi:
 ![3dpi_markers](https://github.com/rmvjh27/hackbio-stage3/blob/main/3dpi_markers.png)
 
 ### Levels of target genes (ACE2, CTSL, TMPRSS2, TMPRSS4, ENO2, TUBB4B, ALDH1A1)
-ACE2:
+- **ACE2**:
 ![mock_ace2](https://github.com/rmvjh27/hackbio-stage3/blob/main/mock_ACE2.png)
 ![1dpi_ace2](https://github.com/rmvjh27/hackbio-stage3/blob/main/1dpi_ace2.png)
 ![2dpi_ace2](https://github.com/rmvjh27/hackbio-stage3/blob/main/2dpi_ace2.png)
 ![3dpi_ace2](https://github.com/rmvjh27/hackbio-stage3/blob/main/3dpi_ace2.png)
 
-ENO2:
+- **ENO2**:
 ![mock_eno2](https://github.com/rmvjh27/hackbio-stage3/blob/main/mock_ENO2.png)
 ![1dpi_eno2](https://github.com/rmvjh27/hackbio-stage3/blob/main/1dpi_ENO2.png)
 ![2dpi_eno2](https://github.com/rmvjh27/hackbio-stage3/blob/main/2dpi_ENO2.png)
 ![3dpi_eno2](https://github.com/rmvjh27/hackbio-stage3/blob/main/3dpi_ENO2.png)
 
-*The figures for other target genes (CTSL, TMPRSS2, TMPRSS4, TUBB4B, and ALDH1A1) can be seen in the Jupyter Notebook (Single_Cell_Analysis_With_Trajectory.ipynb)*
+*The figures for other target genes (CTSL, TMPRSS2, TMPRSS4, TUBB4B, and ALDH1A1) can be seen in the Jupyter Notebook (**Single_Cell_Analysis_With_Trajectory.ipynb**)*
+### Trajectory Analysis
+Inference of differentiation in bronchial epithelial cells 3 days after infection, with club cells (Clara cells) as the root cell:
+![pseudotime](https://github.com/rmvjh27/hackbio-stage3/blob/main/3dpi_pseudotime.png)
 
 ### Reference:
 Ravindra NG, Alfajaro MM, Gasque V, Huston NC, Wan H, et al. (2021) Single-cell longitudinal analysis of SARS-CoV-2 infection in human airway epithelium identifies target cells, alterations in gene expression, and cell state changes. *PLOS Biology* 19(3): e3001143. https://doi.org/10.1371/journal.pbio.3001143
