@@ -15,6 +15,14 @@ The data import stage involves grouping barcodes, features, and matrix files int
 - Visualization of gene expression levels across treatment groups (Target genes: ACE2, CTSL, TMPRSS2, TMPRSS4, ENO2, TUBB4B, ALDH1A1)
 ### Trajectory analysis
 Pseudotime analysis to identify cell differentiation.
+## Results:
+### Identified cell types:
+- mock: Ciliated cells, ionocytes, alveolar type I cells
+- 1dpi: Ciliated cells, club cells (labelled as Clara cells in the figures), alveolar type I cells, airway goblet cells, ionocytes
+- 2dpi: Club cells, ciliated cells, alveolar type I cells, ionocytes
+- 3dpi: Ciliated cells, club cells, ionocytes
+
+![mock_celltypes](https://github.com/rmvjh27/hackbio-stage3/blob/main/cell_types_clusters.png)
 
 ### Reference:
 Ravindra NG, Alfajaro MM, Gasque V, Huston NC, Wan H, et al. (2021) Single-cell longitudinal analysis of SARS-CoV-2 infection in human airway epithelium identifies target cells, alterations in gene expression, and cell state changes. *PLOS Biology* 19(3): e3001143. https://doi.org/10.1371/journal.pbio.3001143
