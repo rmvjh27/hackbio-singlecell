@@ -27,11 +27,18 @@ Pseudotime analysis to identify cell differentiation.
 ![2dpi_celltypes](https://github.com/rmvjh27/hackbio-stage3/blob/main/2dpi_celltypes.png)
 ![3dpi_celltypes](https://github.com/rmvjh27/hackbio-stage3/blob/main/3dpi_celltypes.png)
 
-Clusters with no labelled cell type likely belong to the same cell type as the clusters nearest to them, based on marker gene levels:
+Clusters with no labelled cell type likely belong to the same cell type as the clusters nearest to them, based on marker gene levels.
 
+Mock marker gene levels:
 ![mock_markers](https://github.com/rmvjh27/hackbio-stage3/blob/main/mock_markers.png)
+
+Marker gene levels 1dpi:
 ![1dpi_markers](https://github.com/rmvjh27/hackbio-stage3/blob/main/1dpi_markers.png)
+
+Marker gene levels 2dpi:
 ![2dpi_markers](https://github.com/rmvjh27/hackbio-stage3/blob/main/2dpi_markers.png)
+
+Marker gene levels 3dpi:
 ![3dpi_markers](https://github.com/rmvjh27/hackbio-stage3/blob/main/3dpi_markers.png)
 
 
