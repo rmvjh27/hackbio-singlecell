@@ -53,7 +53,7 @@ Clusters with no labelled cell type likely belong to the same cell type as the c
 - 3dpi:
   ![3dpi_ace2](https://github.com/rmvjh27/hackbio-singlecell/blob/main/stage3/ace2_eno2/3dpi_ace2_eno2.png)
   
-*The figures for the other target genes (CTSL, TMPRSS2, and TMPRSS4) can be seen in the Jupyter Notebook (**Single_Cell_Analysis_With_Trajectory.ipynb**)*. Use nbsanity[nbsanity](https://nbsanity.com/static/81e2ff24dc25517894452cef03af300a/Single_Cell_Analysis_With_Trajectory.html) if the error *'Unable to render code block'* appears.
+*The figures for the other target genes (CTSL, TMPRSS2, and TMPRSS4) can be seen in the Jupyter Notebook (**Single_Cell_Analysis_With_Trajectory.ipynb**)*. Use [nbsanity](https://nbsanity.com/static/81e2ff24dc25517894452cef03af300a/Single_Cell_Analysis_With_Trajectory.html) if the error *'Unable to render code block'* appears.
 
 ### Trajectory Analysis
 Inference of differentiation in bronchial epithelial cells 3 days after infection, with club cells (Clara cells) as the root cell:
