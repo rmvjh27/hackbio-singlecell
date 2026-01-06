@@ -19,39 +19,39 @@ Pseudotime analysis to identify cell differentiation as the infection progresses
 ### Identified cell types:
 - mock: Ciliated cells, ionocytes, alveolar type I cells
   
-  ![mock_celltypes](https://github.com/rmvjh27/hackbio-stage3/blob/main/mock_cell_types.png)
+  ![mock_celltypes](https://github.com/rmvjh27/hackbio-singlecell/blob/main/stage3/celltypes/mock_cell_types.png)
   
 - 1dpi: Ciliated cells, club cells (labelled as Clara cells in the figures), alveolar type I cells, airway goblet cells, ionocytes
   
-  ![1dpi_celltypes](https://github.com/rmvjh27/hackbio-stage3/blob/main/1dpi_cell_types.png)
+  ![1dpi_celltypes](https://github.com/rmvjh27/hackbio-singlecell/blob/main/stage3/celltypes/1dpi_cell_types.png)
   
 - 2dpi: Club cells, ciliated cells, alveolar type I cells, ionocytes
   
-  ![2dpi_celltypes](https://github.com/rmvjh27/hackbio-stage3/blob/main/2dpi_cell_types.png)
+  ![2dpi_celltypes](https://github.com/rmvjh27/hackbio-singlecell/blob/main/stage3/celltypes/2dpi_cell_types.png)
   
 - 3dpi: Ciliated cells, club cells, ionocytes
   
-  ![3dpi_celltypes](https://github.com/rmvjh27/hackbio-stage3/blob/main/3dpi_cell_types.png)
+  ![3dpi_celltypes](https://github.com/rmvjh27/hackbio-singlecell/blob/main/stage3/celltypes/3dpi_cell_types.png)
 
 Clusters with no labelled cell type likely belong to the same cell type as the clusters nearest to them, based on marker gene levels.
 - Mock marker gene levels:
-![mock_markers](https://github.com/rmvjh27/hackbio-stage3/blob/main/mock_markers.png)
+![mock_markers](https://github.com/rmvjh27/hackbio-singlecell/blob/main/stage3/markers/mock_markers.png)
 - Marker gene levels 1dpi:
-![1dpi_markers](https://github.com/rmvjh27/hackbio-stage3/blob/main/1dpi_markers.png)
+![1dpi_markers](https://github.com/rmvjh27/hackbio-singlecell/blob/main/stage3/markers/1dpi_markers.png)
 - Marker gene levels 2dpi:
-![2dpi_markers](https://github.com/rmvjh27/hackbio-stage3/blob/main/2dpi_markers.png)
+![2dpi_markers](https://github.com/rmvjh27/hackbio-singlecell/blob/main/stage3/markers/2dpi_markers.png)
 - Marker gene levels 3dpi:
-![3dpi_markers](https://github.com/rmvjh27/hackbio-stage3/blob/main/3dpi_markers.png)
+![3dpi_markers](https://github.com/rmvjh27/hackbio-singlecell/blob/main/stage3/markers/3dpi_markers.png)
 
 ### Expression levels of ACE2 and ENO2
 - mock:
-  ![mock_ace2](https://github.com/rmvjh27/hackbio-stage3/blob/main/mock_ace2_eno2.png)
+  ![mock_ace2](https://github.com/rmvjh27/hackbio-singlecell/blob/main/stage3/ace2_eno2/mock_ace2_eno2.png)
 - 1dpi:
-  ![1dpi_ace2](https://github.com/rmvjh27/hackbio-stage3/blob/main/1dpi_ace2_eno2.png)
+  ![1dpi_ace2](https://github.com/rmvjh27/hackbio-singlecell/blob/main/stage3/ace2_eno2/1dpi_ace2_eno2.png)
 - 2dpi:
-  ![2dpi_ace2](https://github.com/rmvjh27/hackbio-stage3/blob/main/2dpi_ace2_eno2.png)
+  ![2dpi_ace2](https://github.com/rmvjh27/hackbio-singlecell/blob/main/stage3/ace2_eno2/2dpi_ace2_eno2.png)
 - 3dpi:
-  ![3dpi_ace2](https://github.com/rmvjh27/hackbio-stage3/blob/main/3dpi_ace2_eno2.png)
+  ![3dpi_ace2](https://github.com/rmvjh27/hackbio-singlecell/blob/main/stage3/ace2_eno2/3dpi_ace2_eno2.png)
   
 *The figures for the other target genes (CTSL, TMPRSS2, and TMPRSS4) can be seen in the Jupyter Notebook (**Stage3_Single_Cell_Analysis_With_Trajectory.ipynb**)*. Enter the link to the notebook into [nbviewer](https://nbviewer.org/) if the error *'Unable to render code block'* appears.
 
@@ -59,15 +59,15 @@ Clusters with no labelled cell type likely belong to the same cell type as the c
 Inference of differentiation in bronchial epithelial cells 3 days after infection, with club cells (Clara cells) as the root cell:
 - 1dpi:
   
-  ![1dpi_pseudotime](https://github.com/rmvjh27/hackbio-stage3/blob/main/1dpi_pseudotime.png)
+  ![1dpi_pseudotime](https://github.com/rmvjh27/hackbio-singlecell/blob/main/stage3/pseudotime/1dpi_pseudotime.png)
   
 - 2dpi:
   
-  ![2dpi_pseudotime](https://github.com/rmvjh27/hackbio-stage3/blob/main/2dpi_pseudotime.png)
+  ![2dpi_pseudotime](https://github.com/rmvjh27/hackbio-singlecell/blob/main/stage3/pseudotime/2dpi_pseudotime.png)
   
 - 3dpi:
   
-  ![3dpi_pseudotime](https://github.com/rmvjh27/hackbio-stage3/blob/main/3dpi_pseudotime.png)
+  ![3dpi_pseudotime](https://github.com/rmvjh27/hackbio-singlecell/blob/main/stage3/pseudotime/3dpi_pseudotime.png)
 
 ## Discussion
 ### Cell type identification
