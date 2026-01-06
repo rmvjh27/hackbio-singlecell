@@ -13,22 +13,22 @@ Identification of different cell types in a sample can be done via single-cell R
 ### 3. Normalization
    - Normalization adjusts for sequencing depth differences between cells
    - Normalized (left) vs non-normalized (right) mean expressions of genes:
-     ![normalization](https://github.com/rmvjh27/hackbio-stage2/blob/c5f1686104390feb65691aee6252b74a5c9468cb/download(1).png)
+     ![normalization](https://github.com/rmvjh27/hackbio-singlecell/blob/main/stage2/download(1).png)
 ### 4. Dimensionality Reduction and Clustering
    - Principal component analysis (PCA) to reduce data complexity and highlight key variation patterns
       - Ranking of principal components based on variance ratio (variance ratio = how much a principal component (PC) explains the variance of the data:
      
-        ![pca](https://github.com/rmvjh27/hackbio-stage2/blob/main/varianceratio.png)
+        ![pca](https://github.com/rmvjh27/hackbio-singlecell/blob/main/stage2/varianceratio.png)
       - Clustering of cells based on the top 2 principal components:
 
-        ![pca_cluster](https://github.com/rmvjh27/hackbio-stage2/blob/main/pca2.png)
+        ![pca_cluster](https://github.com/rmvjh27/hackbio-singlecell/blob/main/stage2/pca2.png)
    - Computation of the neighborhood graph of cells
    - UMAP (Uniform Manifold Approximation and Projection) to visualize high-dimensional data in 2 or 3 dimensions and identify distinct cell populations:
   
-     ![umap](https://github.com/rmvjh27/hackbio-stage2/blob/main/umap.png)
+     ![umap](https://github.com/rmvjh27/hackbio-singlecell/blob/main/stage2/umap.png)
    - Application of the Leiden clustering algorithm on the UMAP analysis result to identify cell clusters:
 
-     ![leiden](https://github.com/rmvjh27/hackbio-stage2/blob/main/leidenclustering.png)
+     ![leiden](https://github.com/rmvjh27/hackbio-singlecell/blob/main/stage2/leidenclustering.png)
 ### 5. Cell annotation
 
 In this example, marker gene sets from PanglaoDB are used to annotate types of cells found in the sample based on their highest-ranked marker genes.
